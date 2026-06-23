@@ -1,25 +1,24 @@
 {
   "name": "chaibackend",
   "version": "1.0.0",
-  "description": "backend",
-  "type": "module",
+  "description": "a backend at chai and code channel",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janeshluhar/fun-backend.git"
   },
   "keywords": [
-    "chai",
+    "javascript",
     "and",
     "backend"
   ],
-  "author": "Janesh Luhar",
+  "author": "Janeshluhar",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+  "bugs": {
+    "url": "https://github.com/Janeshluhar/fun-backend/issues"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "homepage": "https://github.com/Janeshluhar/fun-backend#readme"
 }
